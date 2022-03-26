@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\"",
-    "build": "yarn run build:types && yarn run build:js",
+    "build:js": " yarn run build:types &&babel src --out-dir dist --extensions \".ts,.tsx\"",
+    "build": "yarn build:mjml && yarn run build:js",
     "clean": "rm -rf html/* dist/*",
+    "build:mjml": "mjml src/mjml/*.mjml -o html/.",
     "generate-templates": "yarn run clean && yarn build && babel-node scripts/generate-templates",
     "typecheck": "tsc -p tsconfig.test.json --noEmit"
   },

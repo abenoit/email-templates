@@ -1,0 +1,24 @@
+<mj-section>
+  <mj-column>
+    <mj-text mj-class="footer">
+      Busbud inc 5425 Casgrain Ave #901, Montreal, Canada
+    </mj-text>
+    <mj-text mj-class="footer">
+      View online I Help
+    </mj-text>
+    <mj-text mj-class="footer">
+      You are receiving this email because you signed up and subscribed to receive transactional and promotional emails from us. You can unsubscribe from this email or unsubscribe from all marketing emails anytime.
+    </mj-text>
+    <mj-social icon-size="24px" mode="horizontal" mj-class="footer">
+      <mj-social-element name="facebook" href="https://www.facebook.com/Busbud/">
+        Facebook
+      </mj-social-element>
+      <mj-social-element name="linkedin" href="https://www.linkedin.com/company/busbud">
+        LinkedIn
+      </mj-social-element>
+      <mj-social-element name="twitter" href="https://twitter.com/busbud">
+        Twitter
+      </mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>
