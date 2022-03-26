@@ -31,7 +31,7 @@ export default () => {
               width="140px"
               height="40px"
               alt="Busbud"
-              src="https://busbud-pw-assets.s3.amazonaws.com/2020/Images/signature.png"
+              src="./busbud-logo.png"
             />
           </MjmlColumn>
         </MjmlSection>

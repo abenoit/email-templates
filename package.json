@@ -8,7 +8,7 @@
     "build:js": " yarn run build:types &&babel src --out-dir dist --extensions \".ts,.tsx\"",
     "build": "yarn build:mjml && yarn run build:js",
     "clean": "rm -rf html/* dist/*",
-    "build:mjml": "mjml src/mjml/*.mjml -o html/.",
+    "build:mjml": "mjml src/mjml/welcome.template.mjml -o html/welcome.html",
     "generate-templates": "yarn run clean && yarn build && babel-node scripts/generate-templates",
     "typecheck": "tsc -p tsconfig.test.json --noEmit"
   },
