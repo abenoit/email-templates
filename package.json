@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build:types": "tsc --emitDeclarationOnly",
-    "build:js": " yarn run build:types &&babel src --out-dir dist --extensions \".ts,.tsx\"",
-    "build": "yarn build:mjml && yarn run build:js",
+    "build:js": "yarn run build:types && babel src --out-dir dist --extensions \".ts,.tsx\" --copy-files",
+    "build": "yarn run clean && yarn run build:js && yarn generate-templates && yarn build:mjml",
     "clean": "rm -rf html/* dist/*",
-    "build:mjml": "mjml src/mjml/welcome.template.mjml -o html/welcome.html",
-    "generate-templates": "yarn run clean && yarn build && babel-node scripts/generate-templates",
+    "build:mjml": "mjml src/mjml/welcome.template.mjml -o html/welcome-mjml.html",
+    "generate-templates": "babel-node scripts/generate-templates",
     "typecheck": "tsc -p tsconfig.test.json --noEmit"
   },
   "dependencies": {

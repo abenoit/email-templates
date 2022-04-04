@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .body {
+        font-family: "Roboto", sans-serif;
+        background-image: radial-gradient(
+          ellipse at 0% 100%,
+          hsl(191, 100%, 97%) 0%,
+          hsl(194, 100%, 92%) 100%
+        );
+      }
+      .logo {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .content {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+      }
+      .title {
+        font-weight: bold;
+        text-align: center;
+      }
+      .text {
+        display: block;
+        margin-top: 8px;
+      }
+      .divider {
+        background-color: aqua;
+        margin: 20px;
+      }
+      .cta-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .cta {
+        margin: 20px 0;
+        padding: 16px;
+        width: 500px;
+        background-color: #0593ff;
+        border: 0;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 0.375rem;
+      }
+      footer {
+        text-align: center;
+      }
+      .footer-item {
+        color: grey;
+        display: block;
+        font-size: 0.75rem;
+        margin-top: 8px;
+      }
+      .social-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .social-item {
+        padding: 0 8px;
+      }
+      .columns {
+        display: flex;
+        gap: 20px;
+      }
+      .bus1 {
+        border: 1px solid lightgrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-weight: bold;
+        width: 100%;
+        background-image: radial-gradient(
+          ellipse at 0% 100%,
+          hsl(191, 100%, 97%) 0%,
+          hsl(194, 100%, 92%) 100%
+        );
+
+        border-radius: 0.375rem;
+        height: 150px;
+      }
+      .bus2 {
+        border-radius: 0.375rem;
+        width: 400px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://images.unsplash.com/photo-1607512060958-423166921a75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80");
+      }
+      .row {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <section class="logo">
+      <img
+        width="200px"
+        src="https://busbud.imgix.net/busbud-logos/busbud_logo_norm_RGB_HR.png"
+        alt="busbud"
+      />
+    </section>
+    <section class="content">
+      <h1 class="title">Welcome aboard, Homer</h1>
+      <div class="row">
+        <div>
+          <div class="columns">
+            <div>
+              <span class="text"
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. This
+                is a link. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </span>
+              <span class="text">The Busbud team.</span>
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="cta-container"><button class="cta">Action</button></div>
+        </div>
+        <div class="bus2"></div>
+      </div>
+      <div class="bus1">Promotional banner</div>
+    </section>
+    <footer>
+      <span class="footer-item"
+        >Busbud inc 5425 Casgrain Ave #901, Montreal, Canada</span
+      >
+      <span class="footer-item">View online | Help</span>
+      <span class="footer-item"
+        >You are receiving this email because you signed up and subscribed to
+        receive transactional and promotional emails from us. You can
+        unsubscribe from this email or unsubscribe from all marketing emails
+        anytime.</span
+      >
+      <div class="social-block footer-item">
+        <img
+          width="20px"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/640px-Facebook-icon-1.png"
+          alt="facebook"
+        />
+        <span class="social-item">Facebook</span>
+        <img
+          width="20px"
+          src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png"
+          alt="facebook"
+        />
+        <span class="social-item">Twitter</span>
+        <img
+          width="20px"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png"
+          alt="facebook"
+        />
+        <span class="social-item">LinkedIn</span>
+      </div>
+    </footer>
+  </body>
+</html>

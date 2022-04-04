@@ -22,7 +22,7 @@
   <mj-body css-class="background">
     <mj-section>
       <mj-column>
-        <mj-image width="100px" src="./busbud-logo.png" />
+        <mj-image width="100px" src="https://busbud.imgix.net/busbud-logos/busbud_logo_norm_RGB_HR.png" alt="busbud" />
       </mj-column>
     </mj-section>
     <mj-section css-class="body">

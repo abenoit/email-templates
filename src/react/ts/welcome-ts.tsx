@@ -31,7 +31,7 @@ export default () => {
               width="140px"
               height="40px"
               alt="Busbud"
-              src="./busbud-logo.png"
+              src="https://busbud.imgix.net/busbud-logos/busbud_logo_norm_RGB_HR.png"
             />
           </MjmlColumn>
         </MjmlSection>
